@@ -1,0 +1,104 @@
+/* -- elements selectors __*/
+
+html {
+ font-family:  Calibri, 'Trebuchet MS', sans-serif ;
+ background-color:burlywood;
+}
+
+.image-background{
+background-image: url("./pictures/kigali\ convention\ center.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+h1 {
+text-align: center;
+background-color:aquamarine;
+margin: 1rem;
+font-family:  Calibri, sans-serif;
+border: 2px solid burlywood;
+
+}
+  
+ h2{
+text-align: center;
+margin: 1rem;
+font-family:  Calibri, sans-serif;
+border: 2px solid burlywood;
+background-color: khaki;
+ }
+
+h3{
+text-align: center;
+margin: 1rem;
+font-family:  Calibri, sans-serif;
+border: 2px solid burlywood;
+background-color: cadetblue;
+}
+
+p,
+li,
+ol,
+ul
+th,
+tr{
+    padding: 10px;
+}
+th,
+td {
+    border: 1px solid;
+    text-align: center;
+    width: 85%;
+    padding: 10px;
+    font-style: italic;
+    background-color: grey;
+
+}
+
+footer{
+    text-align: center;
+    margin: 1rem;
+}
+
+/* -- class name selectors -- */
+
+.table header:hover{
+    color: cornflowerblue;
+}
+
+.img-div2{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: solid;
+    border-color: tomato;
+}
+
+.page visited:active{
+color: red;
+}
+
+/* -- pseudo element selector --*/
+
+::placeholder{
+    font-display: italic;
+    width: 100%;
+    color:yellowgreen;
+}
+
+/* -- id selector --*/
+#submit:hover{
+    color:red;
+    background-color: white;
+    width: 2px;;
+
+}
+
+.div-background {
+    background-color: tan;
+}
+
+
