@@ -2,15 +2,8 @@
 
 html {
  font-family:  Calibri, 'Trebuchet MS', sans-serif ;
- background-color:burlywood;
-}
-
-.image-background{
-background-image: url("./pictures/kigali\ convention\ center.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-
+ background-color: lightblue;
+ font-size:20px;
 }
 
 h1 {
@@ -19,23 +12,18 @@ background-color:aquamarine;
 margin: 1rem;
 font-family:  Calibri, sans-serif;
 border: 2px solid burlywood;
-
+font-size: 40px;
 }
   
- h2{
-text-align: center;
-margin: 1rem;
-font-family:  Calibri, sans-serif;
-border: 2px solid burlywood;
-background-color: khaki;
- }
 
-h3{
+h3,
+h2{
 text-align: center;
 margin: 1rem;
 font-family:  Calibri, sans-serif;
 border: 2px solid burlywood;
-background-color: cadetblue;
+background-color:khaki;
+font-size: 30px;
 }
 
 p,
@@ -46,6 +34,7 @@ th,
 tr{
     padding: 10px;
 }
+
 th,
 td {
     border: 1px solid;
@@ -53,7 +42,6 @@ td {
     width: 85%;
     padding: 10px;
     font-style: italic;
-    background-color: grey;
 
 }
 
@@ -64,27 +52,35 @@ footer{
 
 /* -- class name selectors -- */
 
-.table header:hover{
-    color: cornflowerblue;
-}
 
-.img-div2{
-
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    border: solid;
-    border-color: tomato;
-}
-
-.page visited:active{
+.page-visited:visited{
 color: red;
+}
+
+.linkedpage{
+    font-style: normal;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold 100px;
+    
+}
+
+.pictures{
+    border: 1px solid tomato;
+    border-radius: 50%;
+    padding: 5px;
+    width: 300px;
+}
+.images{
+    border: 1px solid tomato;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
 }
 
 /* -- pseudo element selector --*/
 
 ::placeholder{
-    font-display: italic;
+    font-style: italic;
     width: 100%;
     color:yellowgreen;
 }
@@ -93,12 +89,11 @@ color: red;
 #submit:hover{
     color:red;
     background-color: white;
-    width: 2px;;
-
 }
 
-.div-background {
-    background-color: tan;
+#dateforvisit:hover{
+    color:tomato;
 }
+
 
 
